@@ -20,14 +20,17 @@ class ViewController: UIViewController, CLLocationManagerDelegate , GMSMapViewDe
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		
-		locationManager = CLLocationManager()
-		locationManager.delegate = self
-		locationManager.requestWhenInUseAuthorization()
-		locationManager.startUpdatingLocation()
-		locationManager.startMonitoringSignificantLocationChanges()
-		
-		initGoogleMaps()
+        
+        DispatchQueue.main.async {
+            
+            self.locationManager = CLLocationManager()
+            self.locationManager.delegate = self
+            self.locationManager.requestWhenInUseAuthorization()
+            self.locationManager.startUpdatingLocation()
+            self.self.locationManager.startMonitoringSignificantLocationChanges()
+            
+            self.initGoogleMaps()
+        }
 	}
 
 	func initGoogleMaps() {

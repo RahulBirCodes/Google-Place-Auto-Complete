@@ -123,6 +123,7 @@
 				TargetAttributes = {
 					B550CA881DD6177C00230A4A = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8A449HU773;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
@@ -356,11 +357,12 @@
 			baseConfigurationReference = BDAED14F7917C78610E8322B /* Pods-Auto Complete.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8A449HU773;
 				INFOPLIST_FILE = "Auto Complete/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.balitax.Auto-Complete";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -370,11 +372,12 @@
 			baseConfigurationReference = DC49AEA732EF93C830E5A59A /* Pods-Auto Complete.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8A449HU773;
 				INFOPLIST_FILE = "Auto Complete/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.balitax.Auto-Complete";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
